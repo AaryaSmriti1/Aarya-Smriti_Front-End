@@ -1,0 +1,2 @@
+The List component in the code renders an unordered list of SingleListItem component, it receives an array of items as prop, and creates a SingleListItem component for each of those items.
+The SingleListItem component renders a single <li> element and adds a onClick behaviour to it.

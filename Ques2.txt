@@ -1,0 +1,2 @@
+One of the major problem here is, the items prop for the List component is set to 'null' intially, rather it should be an empty array, JavaScript is not complaining but typescript will. 
+In the line 51, the isSelected prop of SingleListItem component is passed the value as selectedIndex which is of type number, but the isSelected prop is of type boolean. That will be managed by type conversion, but it is not advised to write code like that.
